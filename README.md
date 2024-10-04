@@ -1,0 +1,1 @@
+Este projeto foi desenvolvido para coletar e armazenar dados enviados por um Arduino via webhook. O Arduino está equipado com sensores para medir nível de água, temperatura, PPM e turbidez. Esses dados são processados e enviados para um banco de dados para análise e monitoramento.
