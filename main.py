@@ -59,8 +59,7 @@ def insert_data_to_db(turbpo, temppo, PPM, timestamp):
             user=db_config['user'],
             password=db_config['password'],
             database=db_config['database'],
-            ssl_ca=db_config['ssl_ca'],
-            ssl_disabled=False
+            ssl_ca=db_config['ssl_ca']
         )
 
         cursor = conn.cursor()
